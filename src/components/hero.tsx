@@ -1,3 +1,4 @@
+import { Button } from "./button"
 
 export const Hero = () => {
     return (
@@ -7,6 +8,10 @@ export const Hero = () => {
             
             <p className='text-center text-sm mt-6 px-4'>Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.</p>
         
+            <div className="text-center mt-6 mb-10">
+                <Button text='Get Started' styles="w-[240px]" />
+            </div>
+
         </section>
     )
 }

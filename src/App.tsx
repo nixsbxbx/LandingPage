@@ -4,18 +4,18 @@ function App() {
 
   return (
     <main className= ' w-[375px] m-auto'>
-      <section className= 'bg-gray-500 p-6 h-[420px] relative'>
+      <section className= 'bg-Navy-850 p-6 h-[420px] relative'>
         <Header />
 
         <img 
-        src= "/public/images/ilustration-intro.png" 
+        src= "/images/ilustration-intro.png" 
         alt="intro ilustration" 
         className='relative z-10 mt-12'
         />
         
         <img 
         className='absolute bottom-0 left-0 '
-        src= "/public/images/bg-curvy-mobile.svg" 
+        src= "/images/bg-curvy-mobile.svg" 
         alt="bg curvy mobile" 
         />
       </section>
