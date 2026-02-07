@@ -23,7 +23,7 @@ const features: Feature[] = [
     {
         title: 'Store any type of file',
         description: 'Whether you’re sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.',
-        iconurl: '/images/icon-store-any-file.svg'
+        iconurl: '/images/icon-any-file.svg'
     },
 ]
 
@@ -33,7 +33,7 @@ export const Features = () => {
             {
                 features.map(({title, description, iconurl} : Feature) => 
                 (
-                    <div className='flex flex-col items-center text-center'>
+                    <div key={title} className='flex flex-col items-center text-center'>
                         <img src={iconurl} alt={title} />
                         <div>
                             <h3 className="font-bold mb-2">{title}</h3>

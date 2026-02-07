@@ -1,4 +1,4 @@
-import { Header, Hero } from "./components"
+import { Header, Hero, Features, MoreInformation, Testimonials } from "./components"
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
         <Header />
 
         <img 
-        src= "/images/ilustration-intro.png" 
+        src= "/images/illustration-intro.png"
         alt="intro ilustration" 
         className='relative z-10 mt-12'
         />
@@ -22,6 +22,9 @@ function App() {
 
       <section className= 'bg-Navy-900 p-6'>
         <Hero />
+        <Features />
+        <MoreInformation />
+        <Testimonials />
       </section>
     </main>
   )
